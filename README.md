@@ -1,1 +1,1 @@
-# mobile-core ok
+# mobile-core
