@@ -110,13 +110,13 @@ export default {
   },
   methods:{
     backInput(){
-       const object = this.$refs[_.keys(this.$refs)[0]];
-      setTimeout(function(){
-        object.style.position='unset';
-        object.style.bottom='unset';
-        object.style.width='100%';
-        object.style.zIndex='0';
-      },200);
+        const object = this.$refs[_.keys(this.$refs)[0]];
+        setTimeout(function(){
+          object.style.position='unset';
+          object.style.bottom='unset';
+          object.style.width='100%';
+          object.style.zIndex='0';
+        },200);
     },
     moveInput(){
       const object = this.$refs[_.keys(this.$refs)[0]];
